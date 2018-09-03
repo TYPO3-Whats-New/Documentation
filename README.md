@@ -39,11 +39,11 @@ Two options exist in general, how to work with the LaTeX sources and Git reposit
 
 GitHub offers an _Edit_ function, which allows users to work with the files directly in their browsers. The main benefit with this approach is that users do not need to install any Git client software on their local machine. In fact, users do not need to know any Git commands necessarily.
 
-Therefore, there is nothing to set up or configure, expect the settings at GitHub (see section "[Preparation](#Preparation)" above).
+Therefore, there is nothing to set up or configure, expect the settings at GitHub (see section "[Preparation](#preparation)" above).
 
 ### Working on a Local Git Repository
 
-The second option is to transfer the LaTeX sources from GitHub to your local machine. The `git clone` command creates a copy of the remote repository and let's users work on their local copy. To render the updated/translated slides to a PDF document, the local changes can be pushed back to GitHub (`git push`), which triggers the webhook [as described above](#Rendering by Webhook) and generates the PDF file.
+The second option is to transfer the LaTeX sources from GitHub to your local machine. The `git clone` command creates a copy of the remote repository and let's users work on their local copy. To render the updated/translated slides to a PDF document, the local changes can be pushed back to GitHub (`git push`), which triggers the webhook [as described above](#rendering-by-webhook) and generates the PDF file.
 
 This approach requires some basic knowledge in Git (e.g. how to "clone" a repository, how to _commit_ changes, how to _push_ local commits to the remote server, etc.), but also offers some great benefits. You do not need to be online when working with the What's New Slides and you can choose the software to edit the LaTeX files.
 
@@ -81,6 +81,6 @@ Some characters have a special meaning in LaTeX. Therefore, they need to be *esc
 
 ### Render LaTeX to PDF
 
-As described [above](#Rendering by Webhook), only a `git push` is required to trigger the LaTeX to PDF rendering chain. You can download the PDF document, review it, and repeat the process as often as you want.
+As described [above](#rendering-by-webhook), only a `git push` is required to trigger the LaTeX to PDF rendering chain. You can download the PDF document, review it, and repeat the process as often as you want.
 
 Please contact the project leader to learn the exact URL to download the PDF document.
